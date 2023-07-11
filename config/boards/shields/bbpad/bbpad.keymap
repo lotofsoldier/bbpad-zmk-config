@@ -47,10 +47,10 @@
             bindings = <
                                                                      &kp KP_NUM
                 &trans           &trans             &trans           &kp BSPC
-                &trans           &rgb_ug RGB_BRI    &trans           &trans
+                &rgb_ug RGB_HUI  &rgb_ug RGB_BRI    &rgb_ug RGB_HUD  &trans
                 &rgb_ug RGB_EFR  &ext_power EP_TOG  &rgb_ug RGB_EFF  &trans
-                &trans           &rgb_ug RGB_BRD    &bt BT_NXT       &trans
-                &sys_reset       &trans             &bootloader      &bt BT_CLR
+                &trans           &rgb_ug RGB_BRD    &bt BT_NXT       &bt BT_CLR
+                &sys_reset       &trans             &bootloader      &trans
             >;  
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
