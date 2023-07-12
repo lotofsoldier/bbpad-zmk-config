@@ -49,8 +49,8 @@
                 &trans           &trans             &trans           &kp BSPC
                 &rgb_ug RGB_HUI  &rgb_ug RGB_BRI    &rgb_ug RGB_HUD  &trans
                 &rgb_ug RGB_EFR  &ext_power EP_TOG  &rgb_ug RGB_EFF  &trans
-                &trans           &rgb_ug RGB_BRD    &bt BT_NXT       &bt BT_CLR
-                &sys_reset       &trans             &bootloader      &trans
+                &trans           &rgb_ug RGB_BRD    &bt BT_NXT       &trans
+                &sys_reset       &trans             &bootloader      &bt BT_CLR
             >;  
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
