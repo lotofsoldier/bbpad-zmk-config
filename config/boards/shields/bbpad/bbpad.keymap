@@ -21,6 +21,16 @@
 };
 
 / {
+
+    chosen {
+      zmk,battery = &vbatt;
+    };
+
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+        label = "VBATT";
+    };
+
     sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&encoder_1>;
